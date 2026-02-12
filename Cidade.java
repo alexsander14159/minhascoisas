@@ -7,5 +7,6 @@ public class Cidade {
         System.out.println("Qual ano estamos?");
         int ano = scanner.nextInt();
         System.out.printf("Estamos na cidade de %s, e no ano %d",cidade,ano);
+        System.out.println("OIIIIIIIIIIIIII");
     }
 }
