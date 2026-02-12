@@ -8,5 +8,7 @@ public class Cidade {
         int ano = scanner.nextInt();
         System.out.printf("Estamos na cidade de %s, e no ano %d",cidade,ano);
         System.out.println("OIIIIIIIIIIIIII");
+        System.out.println("OIIIIIIVIADO");
+        int loco;
     }
 }
