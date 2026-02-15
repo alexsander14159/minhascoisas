@@ -31,12 +31,11 @@ public class PROJETO2FALHO {
                     alexs++;
                 }
 
-                // JANELA 3: Menu de opções
+                // JANELA 3: Menu
                 String menu = "Você quer somar quais números?\n1. Números pares\n2. Números Ímpares\n3. Todos os números";
                 String escolhaTexto = JOptionPane.showInputDialog(null, menu, "Escolha uma opção", JOptionPane.QUESTION_MESSAGE);
                 int d = Integer.parseInt(escolhaTexto);
 
-                // A sua lógica matemática continua INTACTA aqui!
                 if (d == 1 && (numeros[0] % 2) == 0) {
                     for (int i = numeros[0]; i <= intervalo[1]; i = i + 2) {
                         soma = soma + i;
@@ -63,7 +62,7 @@ public class PROJETO2FALHO {
                     }
                 }
 
-                // JANELA 4: Mostra o resultado final bonitão
+                // JANELA 4: Mostra o resultado final
                 JOptionPane.showMessageDialog(null, "O resultado da soma é: " + soma, "Sucesso", JOptionPane.INFORMATION_MESSAGE);
 
                 alex = true;
