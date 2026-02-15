@@ -1,13 +1,16 @@
+package try_do_while_catch;
+
 import java.util.Scanner;
 
-public class Cofre {
+public class Cofrecopy {
     public static void main(String[] args){
         int numero;
-        int senhaErrada;
+        int senhaErrada = 0;
         int senha = 1234;
         Scanner scanner= new Scanner(System.in);
         System.out.println("COFRE LACRADO COM SENHA ULTRA SECRETA");
         do {
+        try{
         System.out.println("Qual a senha do cofre?");
         senhaErrada= scanner.nextInt();
         if (senhaErrada==senha) {
@@ -23,8 +26,11 @@ public class Cofre {
             }
 
         }
-        
-        }while (senhaErrada != senha);
+        }catch(Exception e){
+            System.out.println("Coloca número não letras");
+            scanner.next();
+        }
+    }while (senhaErrada != senha);
     System.out.println("OPÇÕES DO CORFRE");
     System.out.println("1.FOTOS");
     System.out.println("2.VIDEOS");

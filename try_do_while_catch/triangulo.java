@@ -1,3 +1,5 @@
+package try_do_while_catch;
+
 import java.util.Scanner;
 
 public class triangulo {

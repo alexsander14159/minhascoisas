@@ -1,3 +1,4 @@
+package janelas;
 
 import javax.swing.JOptionPane; // Importando a ferramenta de janelas!
 

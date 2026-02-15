@@ -1,3 +1,5 @@
+package for_;
+
 import java.util.Scanner;
 
 public class DEGRAUS {

@@ -1,3 +1,5 @@
+package janelas;
+
 import javax.swing.JOptionPane;
 
 public class TesteJanela {
