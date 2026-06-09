@@ -1,6 +1,5 @@
 package Orientação_a_Objetos;
 
-public class Produto {
     String nome;
     double preco;
     int quantidade;
